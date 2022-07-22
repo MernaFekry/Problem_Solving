@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t,a1[3],a2[3],one=0,one2=0;
+	cin>>t;
+	for(int i=0;i<t;i++)
+	{
+	    one=0,one2=0;
+	    for(int j=0;j<3;j++)
+	    {
+	        cin>>a1[j];
+	        if(a1[j]==1)one++;
+	    }
+	    for(int j=0;j<3;j++)
+	    {
+	        cin>>a2[j];
+	        if(a2[j]==1)one2++;
+	    }
+	    if(one==one2)cout<<"Pass"<<endl;
+	    else cout<<"Fail"<<endl;
+	}
+	return 0;
+}
