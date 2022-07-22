@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t,x,y,w,z;
+	float res1,res2;
+	cin>>t;
+	for(int i=0;i<t;i++)
+	{
+	    cin>>x>>y>>w>>z;
+	    res1=(float)w/x;
+	    res2=(float)z/y;
+	    if(res1<res2)cout<<"-1"<<endl;
+	    else if (res1>res2)cout<<"1"<<endl;
+	    else cout<<"0"<<endl;
+	}
+	return 0;
+}
