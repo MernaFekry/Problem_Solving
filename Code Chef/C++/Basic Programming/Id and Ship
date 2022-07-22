@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	char x;
+	cin>>t;
+	for(int i=0;i<t;i++)
+	{
+	    cin>>x;
+	    if(x=='B'||x=='b')cout<<"BattleShip"<<endl;
+	    else if(x=='C'||x=='c')cout<<"Cruiser"<<endl;
+	    else if(x=='D'||x=='d')cout<<"Destroyer"<<endl;
+	    else if(x=='F'||x=='f')cout<<"Frigate"<<endl;
+	}
+	return 0;
+}
