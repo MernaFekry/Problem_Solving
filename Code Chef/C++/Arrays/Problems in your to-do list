@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t,n,arr[5000],count=0;
+	cin>>t;
+	for(int i=0;i<t;i++)
+	{
+	    cin>>n;
+	    for(int j=0;j<n;j++)
+	    {
+	        cin>>arr[j];
+	    }
+	    for(int j=0;j<n;j++)
+	    {
+	        if(arr[j]>=1000)
+	        count++;
+	    }
+	    cout<<count<<endl;
+	    count=0;
+	}
+	return 0;
+}
