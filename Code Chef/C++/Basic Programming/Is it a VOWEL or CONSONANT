@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	char x;
+	cin>>x;
+	if(x=='A'||x=='E'||x=='I'||x=='O'||x=='U')cout<<"Vowel"<<endl;
+	else cout<<"Consonant"<<endl;
+	return 0;
+}
