@@ -1,0 +1,23 @@
+#include <iostream>
+#include<string>
+using namespace std;
+
+int main() {
+	int t,n,c1=0,c2=0;
+	cin>>t;
+	for(int i=0;i<t;i++)
+	{
+	    cin>>n;
+	    string arr[n];
+	    for(int j=0;j<n;j++)
+	    {
+	        cin>>arr[j];
+	        if(arr[j]=="LTIME108")c1++;
+	        else if (arr[j]=="START38")c2++;
+	    }
+	    cout<<c2<<" "<<c1<<endl;
+	    c1=0;
+	    c2=0;
+	}
+	return 0;
+}
