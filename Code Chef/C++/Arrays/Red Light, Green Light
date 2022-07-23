@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t,count=0,n,k;
+	cin>>t;
+	for(int i=0;i<t;i++)
+	{
+	    cin>>n>>k;
+	    int arr[n];
+	    for(int j=0;j<n;j++)
+	    {
+	     cin>>arr[j];   
+	    }
+	    for(int j=0;j<n;j++)
+	    {
+	        if(arr[j]>k)count++;
+	    }
+	    cout<<count<<endl;
+	    count=0;
+	}
+	return 0;
+}
