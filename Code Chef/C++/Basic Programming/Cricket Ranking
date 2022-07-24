@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t,a,b,c,x,y,z;
+	cin>>t;
+	for(int i=0;i<t;i++)
+	{
+	    cin>>a>>b>>c;
+	    cin>>x>>y>>z;
+	    if(a>x && b>y)cout<<"A"<<endl;
+	    else if (a>x && c>z)cout<<"A"<<endl;
+	    else if (b>y && c>z)cout<<"A"<<endl;
+	    else cout<<"B"<<endl;
+	    
+	}
+	return 0;
+}
